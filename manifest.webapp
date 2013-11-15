@@ -1,0 +1,13 @@
+{
+    "version": "1",
+    "name": "Testapp",
+    "launch_path": "www/index.html",
+    "description": "Firefox OS!!",
+    "icon": {},
+    "developer": {
+        "name": "Michael Kohler",
+        "url": "http://www.michaelkohler.info"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en"
+}

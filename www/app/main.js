@@ -1,8 +1,11 @@
 define(function (require) {
-    // Load any app-specific modules
-    // with a relative require call,
-    // like:
-    // var util = require('./util');
+    var jquery = require('jquery');
 
-    console.log('Hello world');
+    $(document).ready(function() {
+    	console.log('here?');
+    	$('submit').on('click', function() {
+            console.log('there?');
+        	$('title').innerHTML = $('name').value;
+    	});
+    }); 	
 });
